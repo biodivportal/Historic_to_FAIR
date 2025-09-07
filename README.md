@@ -5,9 +5,8 @@ This repository contains the code and workflow used in the paper:
 **Fillies, J., Teich, M., Karam, N., Paschke, A., & Rehbein, M. (2024).  
 *Historic to FAIR: Leveraging LLMs for Historic Term Identification and Standardization*. Datenbank-Spektrum.**  
 
-The notebook `Historic_extraction_and_matchingmatching.ipynb` demonstrates how **large language models (LLMs)** can be applied to identify and align **historical species names** (common names) with their **modern equivalents** to support **FAIR data principles** (Findable, Accessible, Interoperable, Reusable).  
-Data and annotation results will be provided as soon as the dataset is published.
----
+The notebook `Historic_extraction_and_matchingmatching.ipynb` demonstrates how **large language models (LLMs)** can be applied to identify and align **historical species names** (common names) with their **modern equivalents** to support **FAIR data principles** (Findable, Accessible, Interoperable, Reusable). Data and annotation results will be provided as soon as the dataset is published.
+
 
 ## 📖 Background
 
@@ -30,19 +29,21 @@ The notebook is structured around two main phases, mirroring the experiments in 
 ### 1. **Entity Recognition**
 - Identify historical **common names** and **scientific names** from text snippets.
 - Evaluate recognition accuracy with and without additional context.
+
 -> Achieved high precision (GPT-4o: 92% for common names, 98% for scientific names).
 
 ### 2. **Historical Alignment**
 - Map historical terms to **modern equivalents**.  
 - Address the five linguistic challenges listed above.  
-- Compare performance across different LLMs.  
+- Compare performance across different LLMs.
+  
 -> GPT-4o consistently outperformed other models in nuanced contextual alignment.
 
 
 ## Getting Started
 ### Data
-- for data access please consult Maximilian Teich @ Chair of Computational Humanities, University of Passau, Passau, Germany.
-- once the dataset is published we will provide a link here
+- For data access please consult Maximilian Teich @ Chair of Computational Humanities, University of Passau, Passau, Germany.
+- Once the dataset is published we will provide a link here
 
 ### Requirements
 - Python 3.9+  
