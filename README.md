@@ -8,7 +8,7 @@ This repository contains the code and workflow used in the paper:
 The notebook `Historic_extraction_and_matchingmatching.ipynb` demonstrates how **large language models (LLMs)** can be applied to identify and align **historical species names** (common names) with their **modern equivalents** to support **FAIR data principles** (Findable, Accessible, Interoperable, Reusable). Data and annotation results will be provided as soon as the dataset is published.
 
 
-## 📖 Background
+## Background
 
 Biodiversity records from historical sources, such as the 19th-century *Oberamtsbeschreibungen* from Württemberg (1824–1886), provide invaluable data on regional fauna. However, historical biodiversity terms present several challenges:
 
